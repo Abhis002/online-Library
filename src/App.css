@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.navbar-link {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+}
+
+.home-container,
+.browse-books-container,
+.add-book-form,
+.book-details {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.categories-list,
+.explore-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.categories-list li,
+.explore-links li {
+  margin-bottom: 10px;
+}
+
+.book-item {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.book-item a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.book-item a:hover {
+  text-decoration: underline;
+}
+
+.add-book-form input,
+.add-book-form select,
+.add-book-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.add-book-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-book-form button:hover {
+  background-color: #218838;
+}
